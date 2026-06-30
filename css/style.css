@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 body{
   font-family: "Yu Mincho", serif;
 }
@@ -16,13 +15,8 @@ header{
 .logo{
   display: flex;
   align-items: center;
-  margin-left: -60px;
-  gap: 0;
-  position: relative;
-  display: flex;
-  text-decoration: none;
-  color: #333;
-  transition: .3s;
+  gap: 0; 
+  margin-left: 0;
 }
 
 .logo a{
@@ -106,10 +100,6 @@ nav a:hover{
   padding:12px 30px;
   border-radius:999px;
   transition:.3s;
-}
-
-a:hover{
-    opacity:0.8;
 }
 
 .reserve-btn:hover{
@@ -223,8 +213,9 @@ a:hover{
 }
 
 .main-photo{
-  width: 100%;
-  border-radius: 20px;
+  width:100%;
+  border-radius:20px;
+  display: block;
 }
 
 .menu{
@@ -347,20 +338,6 @@ a:hover{
   width: 60px;
   height: 60px;
   flex-shrink: 0;
-}
-
-.access-item p{
-  line-height: 1.8;
-}
-
-.access-map{
-  width: 65%;
-}
-
-.access-map img{
-  width: 100%;
-  display: block;
-  border-radius: 20px;
 }
 
 .access-item p{
