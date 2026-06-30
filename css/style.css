@@ -524,6 +524,21 @@ button{
   cursor: pointer;
 }
 
+/* トップページだけロゴリンクを無効化 */
+body.home .logo a{
+  pointer-events:none;
+  cursor:default;
+}
+
+body.home .logo a:hover{
+  color:#333;
+  transform:none;
+}
+
+body.home .logo a::after{
+  display:none;
+}
+
 /* ------------------------
    responsive
 ------------------------ */
