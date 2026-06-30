@@ -149,19 +149,17 @@ nav a:hover{
 }
 
 .concept-text{
-  width: 55%;
+  width: 50%;
 }
 
 .concept-image{
-  width: 45%;
+  width: 50%;
 }
 
 .concept-image img{
   width: 100%;
   display: block;
   border-radius: 20px;
-
-  margin-left: 60px;
 }
 
 .style{
@@ -696,6 +694,20 @@ flex-direction: column;
     padding:18px;
     font-size:20px;
     box-sizing:border-box;
+}
+
+.concept{
+  padding: 60px 20px;
+}
+
+.concept-image{
+  margin-top: 30px;
+}
+
+.concept-image img{
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 }
